@@ -177,7 +177,7 @@ namespace WindowsFormsApp11
             }
             if (Ecount - count != 1)
             {
-                throw new Exception("Отсутствует логический оператор или операнд!");
+                throw new Exception("Отсутствует операнд!");
             }
             string str = "";
             string str2 = "";
